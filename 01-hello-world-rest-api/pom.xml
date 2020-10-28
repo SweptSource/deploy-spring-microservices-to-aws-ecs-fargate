@@ -63,13 +63,13 @@
 		</dependency>
 	</dependencies>
 
-	<build>
+<!--	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			<!-- Docker -->
+			&lt;!&ndash; Docker &ndash;&gt;
 			<plugin>
 				<groupId>com.spotify</groupId>
 				<artifactId>dockerfile-maven-plugin</artifactId>
@@ -79,7 +79,7 @@
 						<id>default</id>
 						<goals>
 							<goal>build</goal>
-							<!-- <goal>push</goal> -->
+							&lt;!&ndash; <goal>push</goal> &ndash;&gt;
 						</goals>
 					</execution>
 				</executions>
@@ -90,9 +90,9 @@
 				</configuration>
 			</plugin>
 		</plugins>
-	</build>
+	</build>-->
 
-	<repositories>
+<!--	<repositories>
 		<repository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
@@ -109,9 +109,9 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</repository>
-	</repositories>
+	</repositories>-->
 
-	<pluginRepositories>
+<!--	<pluginRepositories>
 		<pluginRepository>
 			<id>spring-snapshots</id>
 			<name>Spring Snapshots</name>
@@ -128,7 +128,7 @@
 				<enabled>false</enabled>
 			</snapshots>
 		</pluginRepository>
-	</pluginRepositories>
+	</pluginRepositories>-->
 
 
 </project>
